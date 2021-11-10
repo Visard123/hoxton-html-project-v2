@@ -17,7 +17,7 @@ header{
     height: 70px;
     position: fixed;
     width: 100vw;
-
+z-index: 10;
   
 }
 header h1{
@@ -80,5 +80,61 @@ main .section-1{
     justify-content: center;
     padding-left: 190px;
     padding-right: 190px;
-    padding-bottom: 20px;
+  
 }
+
+
+.section-2 .coach-sections{
+    background-color:#f9f9f9;;
+  
+    overflow: auto;
+    height: 100%;
+  
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    align-content: start;
+    justify-content: center;
+    gap:30px ;
+   
+    padding:100px;
+    padding-top:;
+ 
+
+}
+/* coach-1 */
+.coach-sections .coach-1{
+    display: grid;
+    outline: 2px solid red;
+   
+  
+}
+ .coach-1 {
+  height: 320px;
+    background-color: cyan;
+    background-image: url(/images/besa\ martini\ coach.png);
+    background-position:center;
+    background-size:cover;
+    position: relative;
+    
+    
+}
+
+
+.coach-1 .coach-infos{
+    display: grid;
+    gap: 10px;
+  position: absolute;
+    font-size: 14px;
+    color: white;
+    text-align: center;
+   
+   
+    font-weight: 550;
+    background-color:black;
+    width: 100%;
+ 
+    bottom: 0px;
+    
+}
+
+

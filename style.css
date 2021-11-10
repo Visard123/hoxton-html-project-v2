@@ -17,6 +17,7 @@ header{
     height: 70px;
     position: fixed;
     width: 100vw;
+    opacity: 1;
    
 
   
@@ -60,6 +61,11 @@ header a{
      align-content: center;
      gap: 20px;
 }
+main{
+    padding-top: 70px;
+}
+  
+
 .section-1 h2{
     text-align: center;
    color: white;
@@ -228,10 +234,13 @@ text-align: center;
 }
 
 .vip-testimonials .serena-williams img{
-    width: 80px;
-    height: 80px;
+    width: 100px;
+    height: 100px;
     justify-self: center;
     border-radius: 50px;
+    
+    object-fit:cover;
+  
 }
 .vip-testimonials .gerard-buttler{
     display: grid;
@@ -245,10 +254,13 @@ text-align: center;
 text-align: center;
 }
 .vip-testimonials .gerard-buttler img{
-    width: 80px;
-    height: 80px;
+    width: 100px;
+    height: 100px;
     justify-self: center;
     border-radius: 50px;
+    object-fit:cover;
+   
+ 
 }
 .vip-testimonials .leonardo-dicaprio{
     display: grid;
@@ -265,10 +277,13 @@ text-align: center;
 
 
 .vip-testimonials .leonardo-dicaprio img{
-    width: 80px;
-    height: 80px;
+    width: 100px;
+    height: 100px;
     justify-self: center;
     border-radius: 50px;
+    object-fit:cover;
+  
+
 
 }
 

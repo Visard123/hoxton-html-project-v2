@@ -47,3 +47,22 @@ header ul li{
 header a{
     text-decoration: none;
 }
+
+main{
+    padding-top: 70px;
+    padding-left: 30px;
+}
+main .tony-description{
+    height: 315px;
+    width:560px;
+
+  
+
+
+}
+iframe { 
+    object-position: center;
+    object-fit: cover;
+    height: 315px;
+    width: 560px;
+}

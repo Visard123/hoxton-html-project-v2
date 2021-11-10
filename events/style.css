@@ -47,39 +47,135 @@ header ul li{
 header a{
     text-decoration: none;
 }
-main .section-1{
+.section-1{
     display: grid;
-    background-image: url(/images/upw-photo.jpg);
-    height: 100vh;
-    width: 100vw;
-    background-position: center;
-    background-size: cover;
-    padding-top: 105px;
-}
-.section-1 .now-event{
-    display: grid;
-    height: 80vh;
-    width: 80vw;
-    padding-top: 40px;
-    justify-self: center;
+     background-image: url(/images/Tony\ robins\ blue.jpg);
+      background-position: center;
+      background-size:cover;
+      height: 100vh;
+      justify-content: center;
+      align-content: center;
+      gap: 20px;
+ }
+ .section-1 h2{
+     text-align: center;
+    color: white;
     
-     gap: 10px;
+    font-size: 40px;
+ }
+ .section-1 .get-ticket{
+     display: grid;
+    justify-content: center;
+   align-self: center;
+   text-decoration: none;
+   border-radius: 6px;
+ 
+  
+  
+ }
+ .get-ticket button{
+     width: 160px;
+     height:50px;
+     font-size: 18px;
+   border-radius: 5px;
+   background-color: rgba(255,255, 255, 0.8)
+ }
+
+ .section-2{
+    background-color:#f9f9f9;;
+    display: grid;
+ }
+.section-2 .upcoming-events h2{ 
+    text-align: center;
+    padding-top: 40px;
 
 }
-.now-event h2{
-    text-align: center;
-   color:  rgb(204, 204, 204);
-   padding-bottom: 30px;
-   font-size: 40px;
-}
-.now-event p{
+
+ .section-2 .events-section{
+  
+  
+    overflow: auto;
+    height: 100%;
+  
     display: grid;
-    grid-auto-flow: row;
-    
-    text-align: center;
-    color: rgb(204, 204, 204);
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    align-content: start;
     justify-content: center;
-    padding-left: 190px;
-    padding-right: 190px;
-    padding-bottom: 20px;
+    gap:40px ;
+    padding-top: 60px;
+   
+    padding-left: 120px;
+    padding-right: 120px;
+    
+   
+ 
+
 }
+/* event-1 */
+.events-section .event-1{
+    display: grid;
+    grid-template-rows:auto auto;
+    padding-bottom: 30px;
+   
+  
+}
+.upw-background{
+    height: 170px;
+    background-color: cyan;
+    background-image: url("/images/upw-event.jpg");
+    background-position: center;
+    background-size: cover;
+  
+    box-shadow: 1px 1px 1px 1px #606060;
+    
+}
+
+
+.bottom-infos{
+    display: grid;
+    gap: 10px;
+    padding-top: 15px;
+    text-align: center;
+  
+}
+
+
+.bottom-infos img{
+    border-radius: 50px;
+    justify-content: start;
+    width: 35px;
+    margin-top: 5px;
+
+   
+}
+.bottom-infos h2{
+   
+    font-size: 18px;
+    font-weight: ;
+   
+}
+
+.bottom-infos p{
+  
+    font-size: 17px;
+    color: #606060;;
+}
+.upw-infos{
+  padding-top: 5px;
+  display: grid;
+   grid-auto-flow: row;
+   gap: 10px;  
+  
+}
+.learn-more button{
+    width: 160px;
+    height:50px;
+    font-size: 18px;
+   color: white;
+  margin-top: 5px;
+  background-color: rgba(63, 63, 245, 0.8);
+  border-radius: 3px;
+  border: none;
+   
+}
+
