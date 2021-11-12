@@ -17,6 +17,7 @@ header{
     height: 70px;
     position: fixed;
     width: 100vw;
+    
 
   
 }
@@ -46,6 +47,9 @@ header ul li{
 }
 header a{
     text-decoration: none;
+}
+main{
+    padding-top: 70px;
 }
 .section-1{
     display: grid;
@@ -179,3 +183,515 @@ header a{
    
 }
 
+
+/* event-2 */
+.events-section .event-2{
+    display: grid;
+    grid-template-rows:auto auto;
+    padding-bottom: 30px;
+   
+  
+}
+.dwd-background{
+    height: 170px;
+    background-color: cyan;
+    background-image: url("/images/date\ with\ destiny-1.jpg");
+    background-position: center;
+    background-size: cover;
+  
+    box-shadow: 1px 1px 1px 1px #606060;
+    
+}
+
+
+.bottom-infos{
+    display: grid;
+    gap: 10px;
+    padding-top: 15px;
+    text-align: center;
+  
+}
+
+
+.bottom-infos img{
+    border-radius: 50px;
+    justify-content: start;
+    width: 35px;
+    margin-top: 5px;
+
+   
+}
+.bottom-infos h2{
+   
+    font-size: 18px;
+    font-weight: ;
+   
+}
+
+.bottom-infos p{
+  
+    font-size: 17px;
+    color: #606060;;
+}
+.dwd-infos{
+  padding-top: 5px;
+  display: grid;
+   grid-auto-flow: row;
+   gap: 10px;  
+  
+}
+.learn-more button{
+    width: 160px;
+    height:50px;
+    font-size: 18px;
+   color: white;
+  margin-top: 5px;
+  background-color: rgba(63, 63, 245, 0.8);
+  border-radius: 3px;
+  border: none;
+   
+}
+
+
+
+
+
+/* event-3*/
+.events-section .event-3{
+    display: grid;
+    grid-template-rows:auto auto;
+    padding-bottom: 30px;
+   
+  
+}
+.bm-background{
+    height: 170px;
+    background-color: cyan;
+    background-image: url("/images/business\ mastery.jpg");
+    background-position: center;
+    background-size: cover;
+  
+    box-shadow: 1px 1px 1px 1px #606060;
+    
+}
+
+
+.bottom-infos{
+    display: grid;
+    gap: 10px;
+    padding-top: 15px;
+    text-align: center;
+  
+}
+
+
+.bottom-infos img{
+    border-radius: 50px;
+    justify-content: start;
+    width: 35px;
+    margin-top: 5px;
+
+   
+}
+.bottom-infos h2{
+   
+    font-size: 18px;
+    font-weight: ;
+   
+}
+
+.bottom-infos p{
+  
+    font-size: 17px;
+    color: #606060;;
+}
+.bm-infos{
+  padding-top: 5px;
+  display: grid;
+   grid-auto-flow: row;
+   gap: 10px;  
+  
+}
+.learn-more button{
+    width: 160px;
+    height:50px;
+    font-size: 18px;
+   color: white;
+  margin-top: 5px;
+  background-color: rgba(63, 63, 245, 0.8);
+  border-radius: 3px;
+  border: none;
+   
+}
+
+
+/* event-4*/
+.events-section .event-4{
+    display: grid;
+    grid-template-rows:auto auto;
+    padding-bottom: 30px;
+   
+  
+}
+.la-background{
+    height: 170px;
+    background-color: cyan;
+    background-image: url("/images/leadership\ academy.jpg");
+    background-position: center;
+    background-size: cover;
+  
+    box-shadow: 1px 1px 1px 1px #606060;
+    
+}
+
+
+.bottom-infos{
+    display: grid;
+    gap: 10px;
+    padding-top: 15px;
+    text-align: center;
+  
+}
+
+
+.bottom-infos img{
+    border-radius: 50px;
+    justify-content: start;
+    width: 35px;
+    margin-top: 5px;
+
+   
+}
+.bottom-infos h2{
+   
+    font-size: 18px;
+    font-weight: ;
+   
+}
+
+.bottom-infos p{
+  
+    font-size: 17px;
+    color: #606060;;
+}
+.la-infos{
+  padding-top: 5px;
+  display: grid;
+   grid-auto-flow: row;
+   gap: 10px;  
+  
+}
+.learn-more button{
+    width: 160px;
+    height:50px;
+    font-size: 18px;
+   color: white;
+  margin-top: 5px;
+  background-color: rgba(63, 63, 245, 0.8);
+  border-radius: 3px;
+  border: none;
+   
+}
+
+
+
+
+
+/* event-5*/
+.events-section .event-5{
+    display: grid;
+    grid-template-rows:auto auto;
+    padding-bottom: 30px;
+   
+  
+}
+.life-background{
+    height: 170px;
+    background-color: cyan;
+    background-image: url("/images/life\ mastery.jpg");
+    background-position: center;
+    background-size: cover;
+  
+    box-shadow: 1px 1px 1px 1px #606060;
+    
+}
+
+
+.bottom-infos{
+    display: grid;
+    gap: 10px;
+    padding-top: 15px;
+    text-align: center;
+  
+}
+
+
+.bottom-infos img{
+    border-radius: 50px;
+    justify-content: start;
+    width: 35px;
+    margin-top: 5px;
+
+   
+}
+.bottom-infos h2{
+   
+    font-size: 18px;
+    font-weight: ;
+   
+}
+
+.bottom-infos p{
+  
+    font-size: 17px;
+    color: #606060;;
+}
+.life-infos{
+  padding-top: 5px;
+  display: grid;
+   grid-auto-flow: row;
+   gap: 10px;  
+  
+}
+.learn-more button{
+    width: 160px;
+    height:50px;
+    font-size: 18px;
+   color: white;
+  margin-top: 5px;
+  background-color: rgba(63, 63, 245, 0.8);
+  border-radius: 3px;
+  border: none;
+   
+}
+
+
+
+/* event-6*/
+.events-section .event-6{
+    display: grid;
+    grid-template-rows:auto auto;
+    padding-bottom: 30px;
+   
+  
+}
+.wealth-background{
+    height: 170px;
+    background-color: cyan;
+    background-image: url("/images/wealth\ mastery-1.jpg");
+    background-position: center;
+    background-size: cover;
+  
+    box-shadow: 1px 1px 1px 1px #606060;
+    
+}
+
+
+.bottom-infos{
+    display: grid;
+    gap: 10px;
+    padding-top: 15px;
+    text-align: center;
+  
+}
+
+
+.bottom-infos img{
+    border-radius: 50px;
+    justify-content: start;
+    width: 35px;
+    margin-top: 5px;
+
+   
+}
+.bottom-infos h2{
+   
+    font-size: 18px;
+    font-weight: ;
+   
+}
+
+.bottom-infos p{
+  
+    font-size: 17px;
+    color: #606060;;
+}
+.wealth-infos{
+  padding-top: 5px;
+  display: grid;
+   grid-auto-flow: row;
+   gap: 10px;  
+  
+}
+.learn-more button:hover{
+  
+    width: 160px;
+    height:50px;
+    font-size: 18px;
+   color: white;
+  margin-top: 5px;
+  background-color: rgba(63, 63, 245, 0.8);
+  border-radius: 3px;
+  border: none;
+  
+   
+}
+
+
+
+
+footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color:rgb(63, 63, 63);
+    justify-items: center;
+    padding: 20px;
+}
+footer .contact{
+    display: grid;
+    grid-auto-flow: row;
+}
+footer .form{
+    display: grid;
+    grid-auto-flow: row;
+    gap: 10px;
+
+}
+footer .social-media{
+    display: grid;
+    padding-top: 10px;
+  
+}
+.social-media ul{
+    display: grid;
+grid-auto-flow: column;
+}
+.social-media ul img{
+    height: 25px;
+    width: 25px;
+   
+}
+.social-media li{
+    list-style: none;
+}
+
+footer .contact p {
+    color: rgb(182, 180, 180);
+}
+footer .contact h2{
+    color: rgb(182, 180, 180);
+}
+footer .contact h3{
+    color: rgb(182, 180, 180);
+}
+footer .form h2{
+    color: rgb(182, 180, 180); 
+}
+
+footer button{
+    width: 100px;
+    height: 40px;
+    color: rgb(91, 91, 114);
+    border-radius: 20px;
+    box-shadow: 1px 1px 0.5px 0.5px rgb(104, 103, 103);
+    border:none;
+    font-size: 16px;
+   
+}
+footer .submit-button{
+    padding-left: 80px;
+}
+footer .name input{
+    height: 30px;
+    font-size: 14px;
+    border-radius: 3px;
+    border:none;
+    padding: 5px;
+    font-weight: 600;
+
+}
+footer .email input{
+    height: 30px;
+    font-size: 14px;
+    border-radius: 3px;
+    border:none;
+    padding: 5px;
+    font-weight: 600;
+
+}
+footer .phone-number input{
+    height: 30px;
+    font-size: 14px;
+    border-radius: 3px;
+    border:none;
+    padding: 5px;
+    font-weight: 600;
+
+}
+footer .message textarea{
+    height: 50px;
+    font-size: 15px;
+    border-radius: 3px;
+    border:none;
+    padding: 5px;
+    font-weight: 700;
+     color:rgb(106, 106, 107); 
+     width: 200px;
+
+}
+
+
+/* Animation */
+footer  h2:hover{
+    color: rgb(165, 165, 165);
+
+}
+header h1:hover{
+    color: rgb(160, 159, 159);
+}
+header h1:hover{
+}
+header li:hover{
+    color: rgb(160, 159, 159);
+}
+.section-1 button:hover{
+    color: rgb(145, 143, 143);
+  
+
+}
+.improved-areas a:hover{
+    color: rgb(145, 143, 143);
+}
+
+
+ footer button:hover{
+     background-color:rgb(175, 175, 175);
+ }
+  input:hover{
+     color: honeydew;
+
+ }
+.upw-infos .learn-more button:hover{
+   background-color: lightblue;
+   color: black;
+}
+.dwd-infos .learn-more button:hover{
+    background-color: lightblue;
+    color: black;
+ }
+ .bm-infos .learn-more button:hover{
+    background-color: lightblue;
+    color: black;
+ }
+ .la-infos .learn-more button:hover{
+    background-color: lightblue;
+    color: black;
+ }
+ .life-infos .learn-more button:hover{
+    background-color: lightblue;
+    color: black;
+ }
+ .wealth-infos .learn-more button:hover{
+    background-color: lightblue;
+    color: black;
+ }

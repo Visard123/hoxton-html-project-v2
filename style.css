@@ -166,7 +166,7 @@ main{
    
 }
 .finance{
-    background-image: url(/images/finance.jpg);
+    background-image: url(/images/Finance-1.jpeg);
     background-position: center;
     background-size: cover;
     height: 230px;
@@ -200,6 +200,10 @@ main{
  text-align: center;
  padding-top: 110px;
 }
+.improved-areas a{ 
+    text-decoration: unset;
+    color: unset;
+}
 .section-4{
     padding: 40px;
     background-color: rgb(228, 225, 225);
@@ -214,8 +218,8 @@ main{
 .section-4 .vip-testimonials{
     display: grid;
     grid-template-columns: repeat(3,350px);
-    gap: 20px;
-    height: 250px;
+    gap: 26px;
+    height: 300px;
     justify-content: center;
 
 
@@ -224,8 +228,8 @@ main{
     display: grid;
    padding: 10px;
    
-    background-color: rgb(255, 255, 255);
-    box-shadow: 1px 1px 1px 1px rgb(177, 176, 176);
+    background-color: rgb(144, 142, 248);
+    box-shadow: 1px 1px 1px 1px rgb(88, 88, 88);
   
   
 }
@@ -238,7 +242,7 @@ text-align: center;
     height: 100px;
     justify-self: center;
     border-radius: 50px;
-    
+    outline: 1px solid white;
     object-fit:cover;
   
 }
@@ -246,8 +250,10 @@ text-align: center;
     display: grid;
     padding: 10px;
      
-     background-color: rgb(255, 255, 255);
-     box-shadow: 1px 1px 1px 1px rgb(177, 176, 176);
+    background-color: rgb(144, 142, 248);
+     
+    box-shadow: 1px 1px 1px 1px rgb(88, 88, 88);
+  
    
 }
 .vip-testimonials .gerard-buttler h3{
@@ -259,15 +265,17 @@ text-align: center;
     justify-self: center;
     border-radius: 50px;
     object-fit:cover;
-   
+    outline: 1px solid white;
  
 }
 .vip-testimonials .leonardo-dicaprio{
     display: grid;
     padding: 10px;
  
-     background-color: rgb(255, 255, 255);
-     box-shadow: 1px 1px 1px 1px rgb(177, 176, 176);
+    background-color: rgb(144, 142, 248);
+     
+    box-shadow: 1px 1px 1px 1px rgb(88, 88, 88);
+  
    
 }
 .vip-testimonials .leonardo-dicaprio h3{
@@ -282,7 +290,7 @@ text-align: center;
     justify-self: center;
     border-radius: 50px;
     object-fit:cover;
-  
+    outline: 1px solid white;
 
 
 }
@@ -323,6 +331,7 @@ grid-auto-flow: column;
 .social-media li{
     list-style: none;
 }
+
 footer .contact p {
     color: rgb(182, 180, 180);
 }
@@ -377,12 +386,45 @@ footer .phone-number input{
 
 }
 footer .message textarea{
-    height: 60px;
+    height: 50px;
     font-size: 15px;
     border-radius: 3px;
     border:none;
     padding: 5px;
     font-weight: 700;
      color:rgb(106, 106, 107); 
+     width: 200px;
 
 }
+
+
+/* Animation */
+footer  h2:hover{
+    color: rgb(165, 165, 165);
+
+}
+header h1:hover{
+    color: rgb(160, 159, 159);
+}
+header h1:hover{
+}
+header li:hover{
+    color: rgb(160, 159, 159);
+}
+.section-1 button:hover{
+    color: rgb(145, 143, 143);
+  
+
+}
+.improved-areas a:hover{
+    color: rgb(145, 143, 143);
+}
+
+
+ footer button:hover{
+     background-color:rgb(175, 175, 175);
+ }
+  input:hover{
+     color: honeydew;
+
+ }

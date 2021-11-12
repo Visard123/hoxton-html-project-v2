@@ -50,19 +50,343 @@ header a{
 
 main{
     padding-top: 70px;
-    padding-left: 30px;
+    background-color: rgb(231, 229, 229);
+    display: grid;
+    gap: 16px;
+    justify-content: center;
+    place-items: center;
+    padding-bottom: 20px;
 }
-main .tony-description{
-    height: 315px;
-    width:560px;
-
-  
-
-
+main h2{
+    padding-top: 50px;
+    padding-bottom: 20px;
 }
-iframe { 
+
+.section-1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color:rgb(143, 143, 252);
+    width: 92vw;
+    padding: 50px;
+    gap: 100px;
+    outline: 1px solid white;
+    align-content: center;
+    padding-left: 100px;
+    padding-right:100px ;
+    border-bottom: 1px solid rgb(228, 227, 227);
+}
+.section-1 .article-image img{
+width: 550px;
+height: 350px;
+outline: 1px solid white;
+
+
+ }
+ .section-1 .article-writting{
+     display: grid;
+    align-content: flex-start;
+     justify-content: center;
+     gap: 20px;
+
+
+ }
+ .article-writting h3{
+     color: rgb(36, 36, 36);
+ }
+
+.article-writting .read-more button{
+    width: 80px;
+    height: 30px;background-color: rgb(80, 80, 255);
+    border: none;
+    color: white;
+}
+.section-1 .article-image iframe{
+
     object-position: center;
     object-fit: cover;
-    height: 315px;
-    width: 560px;
+    height: 350px;
+    width: 550px;
+    outline: 1px solid white;
+
+
+}
+
+.section-2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color:rgb(143, 143, 252);
+    padding: 50px;
+    gap: 100px;
+    width: 92vw;
+    align-content: center;
+    padding-left: 100px;
+    padding-right:100px ;
+    border-bottom: 1px solid rgb(228, 227, 227);
+    outline: 1px solid white;
+}
+.section-2 .article-image img{
+width: 550px;
+height: 350px;
+outline: 1px solid white;
+
+ }
+ .section-2 .article-writting{
+     display: grid;
+    align-content: flex-start;
+     justify-content: center;
+     gap: 20px;
+  
+
+ }
+ .article-writting h3{
+    color: rgb(36, 36, 36);
+ }
+
+.article-writting .read-more button{
+    width: 80px;
+    height: 30px;background-color: rgb(80, 80, 255);
+    border: none;
+    color: white;
+}
+
+
+
+.section-3{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color:rgb(143, 143, 252);
+    padding: 50px;
+    gap: 100px;
+    width: 92vw;
+    align-content: center;
+    padding-left: 100px;
+    padding-right:100px ;
+    border-bottom: 1px solid rgb(228, 227, 227);
+    outline: 1px solid white;
+}
+.section-3 .article-image img{
+width: 550px;
+height: 350px;
+outline: 1px solid white;
+
+ }
+ .section-3 .article-writting{
+     display: grid;
+    align-content: flex-start;
+     justify-content: center;
+     gap: 20px;
+  
+
+ }
+ .article-writting h3{
+    color: rgb(36, 36, 36);
+ }
+
+.article-writting .read-more button{
+    width: 80px;
+    height: 30px;background-color: rgb(80, 80, 255);
+    border: none;
+    color: white;
+}
+.section-3 .article-image iframe{
+
+    object-position: center;
+    object-fit: cover;
+    height: 350px;
+    width: 550px;
+
+
+}
+
+.section-4{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color:rgb(143, 143, 252);
+    padding: 50px;
+    gap: 100px;
+    width: 92vw;
+    align-content: center;
+    padding-left: 100px;
+    padding-right:100px ;
+    border-bottom: 1px solid rgb(228, 227, 227);
+    outline: 1px solid white;
+}
+.section-4 .article-image img{
+width: 550px;
+height: 350px;
+outline: 1px solid white;
+
+ }
+ .section-4 .article-writting{
+     display: grid;
+    align-content: flex-start;
+     justify-content: center;
+     gap: 20px;
+  
+
+ }
+ .article-writting h3{
+    color: rgb(36, 36, 36);
+ }
+
+.article-writting .read-more button{
+    width: 80px;
+    height: 30px;background-color: rgb(80, 80, 255);
+    border: none;
+    color: white;
+}
+
+
+footer{
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color:rgb(63, 63, 63);
+    justify-items: center;
+    padding: 20px;
+}
+footer .contact{
+    display: grid;
+    grid-auto-flow: row;
+}
+footer .form{
+    display: grid;
+    grid-auto-flow: row;
+    gap: 10px;
+
+}
+footer .social-media{
+    display: grid;
+    padding-top: 10px;
+  
+}
+.social-media ul{
+    display: grid;
+grid-auto-flow: column;
+}
+.social-media ul img{
+    height: 25px;
+    width: 25px;
+   
+}
+.social-media li{
+    list-style: none;
+}
+
+footer .contact p {
+    color: rgb(182, 180, 180);
+}
+footer .contact h2{
+    color: rgb(182, 180, 180);
+}
+footer .contact h3{
+    color: rgb(182, 180, 180);
+}
+footer .form h2{
+    color: rgb(182, 180, 180); 
+}
+
+footer button{
+    width: 100px;
+    height: 40px;
+    color: rgb(91, 91, 114);
+    border-radius: 20px;
+    box-shadow: 1px 1px 0.5px 0.5px rgb(104, 103, 103);
+    border:none;
+    font-size: 16px;
+   
+}
+footer .submit-button{
+    padding-left: 80px;
+}
+footer .name input{
+    height: 30px;
+    font-size: 14px;
+    border-radius: 3px;
+    border:none;
+    padding: 5px;
+    font-weight: 600;
+
+}
+footer .email input{
+    height: 30px;
+    font-size: 14px;
+    border-radius: 3px;
+    border:none;
+    padding: 5px;
+    font-weight: 600;
+
+}
+footer .phone-number input{
+    height: 30px;
+    font-size: 14px;
+    border-radius: 3px;
+    border:none;
+    padding: 5px;
+    font-weight: 600;
+
+}
+footer .message textarea{
+    height: 50px;
+    font-size: 15px;
+    border-radius: 3px;
+    border:none;
+    padding: 5px;
+    font-weight: 700;
+     color:rgb(106, 106, 107); 
+     width: 200px;
+
+}
+
+
+/* Animation */
+footer  h2:hover{
+    color: rgb(165, 165, 165);
+
+}
+header h1:hover{
+    color: rgb(160, 159, 159);
+}
+header h1:hover{
+}
+header li:hover{
+    color: rgb(160, 159, 159);
+}
+
+
+
+.improved-areas a:hover{
+    color: rgb(145, 143, 143);
+}
+
+
+ footer button:hover{
+     background-color:rgb(175, 175, 175);
+ }
+  input:hover{
+     color: honeydew;
+
+ }
+ .section-1 button:hover{
+     color: black;
+     background-color: rgb(131, 131, 160);
+    
+ }
+
+ .section-2 button:hover{
+    color: black;
+    background-color: rgb(131, 131, 160);
+   
+}
+
+.section-3 button:hover{
+    color: black;
+    background-color: rgb(131, 131, 160);
+   
+}
+
+.section-4 button:hover{
+    color: black;
+    background-color: rgb(131, 131, 160);
+   
 }
