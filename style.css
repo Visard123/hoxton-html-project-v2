@@ -10,6 +10,8 @@ html{
     scroll-behavior: smooth;
     font-family: sans-serif;
 }
+
+
 header{
     background-color:rgb(247, 245, 245);
     display: grid;
@@ -22,6 +24,7 @@ header{
 
   
 }
+
 header h1{
  padding: 17px;
  font-size: 28px;
@@ -428,3 +431,20 @@ header li:hover{
      color: honeydew;
 
  }
+
+
+ 
+@media screen and (max-width:600px){
+    footer{
+        grid-template-columns: 1fr;
+
+    
+}
+
+ 
+@media screen and (max-width:600px){
+    .section-4 .vip-testimonials{
+        grid-template-columns: 1fr;
+
+    
+}
