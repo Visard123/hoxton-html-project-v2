@@ -88,6 +88,7 @@ main{
  .section-2{
     background-color:#f9f9f9;;
     display: grid;
+    padding-bottom: 20px;
  }
 .section-2 .upcoming-events h2{ 
     text-align: center;

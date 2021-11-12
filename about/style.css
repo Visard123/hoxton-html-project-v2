@@ -133,10 +133,18 @@ outline: 1px solid white;
 
 
 }
-
-
+.section-2{
+    display: grid;
+    grid-auto-flow: row;
+}
+.section-2 .our-team{
+    position: absolute;
+    padding-left: 600px;
+    padding-top: 20px;
+    
+}
 .section-2 .coach-sections{
-    background-color:#f9f9f9;;
+    background-color:rgb(190, 190, 228);
   
     overflow: auto;
     height: 100%;
@@ -145,17 +153,22 @@ outline: 1px solid white;
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
     align-content: start;
     justify-content: center;
-    gap:30px ;
-   
-    padding:100px;
-    padding-top:;
+    gap:40px ;
+  
+   padding-top: 80px;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-bottom: 30px;
  
 
+}
+.section-2 h2{
+   
 }
 /* coach-1 */
 .coach-sections .coach-1{
     display: grid;
-    outline: 2px solid red;
+    outline: 1px solid rgb(94, 93, 93);
    
   
 }
@@ -179,14 +192,244 @@ outline: 1px solid white;
     color: white;
     text-align: center;
    
-   
+   padding: 10px;
     font-weight: 550;
-    background-color:black;
+    background-color:rgb(83, 83, 148);
     width: 100%;
  
     bottom: 0px;
     
 }
+.coach-sections a{
+    color: unset;
+    text-decoration: unset;
+}
+.coach-sections a:hover{
+    color: blue;
+}
+
+
+/* coach-2 */
+.coach-sections .coach-2{
+    display: grid;
+    outline: 1px solid rgb(59, 59, 59);
+   
+  
+}
+ .coach-2 {
+  height: 320px;
+    background-color: cyan;
+    background-image: url(/images/angela-coach.jpg);
+    background-position:center;
+    background-size:cover;
+    position: relative;
+    
+    
+}
+
+
+.coach-2 .coach-infos{
+    display: grid;
+    gap: 10px;
+  position: absolute;
+    font-size: 14px;
+    color: white;
+    text-align: center;
+   
+   padding: 10px;
+    font-weight: 550;
+    background-color:rgb(83, 83, 148);
+    width: 100%;
+ 
+    bottom: 0px;
+    
+}
+.coach-sections a{
+    color: unset;
+    text-decoration: unset;
+}
+.coach-sections a:hover{
+    color: blue;
+}
+
+
+
+/* coach-3 */
+.coach-sections .coach-3{
+    display: grid;
+    outline: 1px solid rgb(94, 93, 93);
+   
+  
+}
+ .coach-3 {
+  height: 320px;
+    background-color: cyan;
+    background-image: url(/images/Jill-coach.jpg);
+    background-position:center;
+    background-size:cover;
+    position: relative;
+    
+    
+}
+
+
+.coach-3 .coach-infos{
+    display: grid;
+    gap: 10px;
+  position: absolute;
+    font-size: 14px;
+    color: white;
+    text-align: center;
+   
+   padding: 10px;
+    font-weight: 550;
+    background-color:rgb(83, 83, 148);
+    width: 100%;
+ 
+    bottom: 0px;
+    
+}
+.coach-sections a{
+    color: unset;
+    text-decoration: unset;
+}
+.coach-sections a:hover{
+    color: blue;
+}
+
+
+/* coach-4*/
+.coach-sections .coach-4{
+    display: grid;
+    outline: 1px solid rgb(94, 93, 93);
+   
+  
+}
+ .coach-4 {
+  height: 320px;
+    background-color: cyan;
+    background-image: url(/images/cj-young-coach.jpg);
+    background-position:center;
+    background-size:cover;
+    position: relative;
+    
+    
+}
+
+
+.coach-4 .coach-infos{
+    display: grid;
+    gap: 10px;
+  position: absolute;
+    font-size: 14px;
+    color: white;
+    text-align: center;
+   
+   padding: 10px;
+    font-weight: 550;
+    background-color:rgb(83, 83, 148);
+    width: 100%;
+ 
+    bottom: 0px;
+    
+}
+.coach-sections a{
+    color: unset;
+    text-decoration: unset;
+}
+.coach-sections a:hover{
+    color: blue;
+}
+
+
+/* coach-5*/
+.coach-sections .coach-5{
+    display: grid;
+    outline: 1px solid rgb(94, 93, 93);
+   
+  
+}
+ .coach-5 {
+  height: 320px;
+    background-color: cyan;
+    background-image: url(/images/gina-coach.jpg);
+    background-position:center;
+    background-size:cover;
+    position: relative;
+    
+    
+}
+
+
+.coach-5 .coach-infos{
+    display: grid;
+    gap: 10px;
+  position: absolute;
+    font-size: 14px;
+    color: white;
+    text-align: center;
+   
+   padding: 10px;
+    font-weight: 550;
+    background-color:rgb(83, 83, 148);
+    width: 100%;
+ 
+    bottom: 0px;
+    
+}
+.coach-sections a{
+    color: unset;
+    text-decoration: unset;
+}
+.coach-sections a:hover{
+    color: blue;
+}
+
+
+/* coach-6*/
+.coach-sections .coach-6{
+    display: grid;
+    outline: 1px solid rgb(94, 93, 93);
+   
+  
+}
+ .coach-6 {
+  height: 320px;
+    background-color: cyan;
+    background-image: url(/images/jackie-coach.jpg);
+    background-position:center;
+    background-size:cover;
+    position: relative;
+    
+    
+}
+
+
+.coach-6 .coach-infos{
+    display: grid;
+    gap: 10px;
+  position: absolute;
+    font-size: 14px;
+    color: white;
+    text-align: center;
+   
+   padding: 10px;
+    font-weight: 550;
+    background-color:rgb(83, 83, 148);
+    width: 100%;
+ 
+    bottom: 0px;
+    
+}
+.coach-sections a{
+    color: unset;
+    text-decoration: unset;
+}
+.coach-sections a:hover{
+    color: blue;
+}
+
+
 
 
 footer{
